@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+
+.sfondo{
+    background-image: url(background2.0.jpg);
+    height: 1000px;
+    background-size: cover;
+    padding-top: 25px;
+}
+
+
+.container{
+    width: 65%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 400px;
+    border-radius: 20px;
+}
+
+header{
+    text-align: center;
+    color: rgb(0,221,0);
+}
+
+#logo{
+    width: 20.5%;
+    margin-top: 8%;
+}
+
+#testologo{
+    margin-top: 5px ;
+    margin-bottom: 5px;
+}
+
+nav{
+    text-align: center;
+    background-color: rgb(0,221,0);
+    margin-right: 8%;
+    margin-left: 8%;
+    padding: 1%;
+}
+
+section{
+    padding-left: 8%;
+}
+
+section h2{
+    display: inline-block;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 7px;
+}
+
+.simbolo:before{
+    content: "\21A6";
+    color: white;
+}
+
+div{
+    color: lightgray;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.rettangolo{
+    margin-top: 0px;
+    margin-left: 1px;
+    margin-bottom: 7px;
+    padding: 14px;
+    border-radius: 5px;
+}
+
+.arancione{
+    background-color: rgb(245,180,83);
+    width: 29%;
+}
+
+.verde{
+    background-color:rgb(30,195,30);
+    width: 52%;
+}
+
+.rosso{
+    background-color: rgb(190,65,65);
+    width: 11%;
+}
+
+footer{
+    padding-bottom: 9%;
+}
